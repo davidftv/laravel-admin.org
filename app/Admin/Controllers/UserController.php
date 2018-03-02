@@ -136,7 +136,7 @@ class UserController extends Controller
 
                 $form->text('name')/*->rules('required')*/;
                 $form->email('email')->rules('required');
-                $form->phone('phone');
+                $form->text('phone');
                 $form->display('created_at');
                 $form->display('updated_at');
 
