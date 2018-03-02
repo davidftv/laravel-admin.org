@@ -1,7 +1,7 @@
 laravel-admin.org
 =================
 
-Source code of official [http://laravel-admin.org](http://laravel-admin.org) website.
+Source code of official [http://laravel-admin.org](http://laravel-admin.org) website. forked by ftv
 
 ## Installation
 
