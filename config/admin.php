@@ -22,7 +22,7 @@ return [
      */
     'route' => [
 
-        'prefix' => 'demo',
+        'prefix' => 'datahub',
 
         'namespace'     => 'App\\Admin\\Controllers',
 
