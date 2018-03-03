@@ -51,9 +51,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#features" class="scroll-to">Features</a></li>
                         <li><a href="#extensions" class="scroll-to">Extensions</a></li>
-                        <li><a href="http://discuss.laravel-admin.org">Discuss</a></li>
-                        <li><a href="/docs">Documentation</a></li>
-                        <li><a href="/demo">Demo</a></li>
+                        <li><a href="/app/auth/login">登陆</a></li>
                     </ul>
                 </div>
             </div>

@@ -10,7 +10,7 @@ return [
     /*
      * Logo in admin panel header.
      */
-    'logo'      => '<b>Laravel</b> admin',
+    'logo'      => '<b>DataHub</b> admin',
 
     /*
      * Mini-logo in admin panel header.
@@ -22,7 +22,7 @@ return [
      */
     'route' => [
 
-        'prefix' => 'datahub',
+        'prefix' => 'app',
 
         'namespace'     => 'App\\Admin\\Controllers',
 
@@ -37,7 +37,7 @@ return [
     /*
      * Laravel-admin html title.
      */
-    'title'  => 'Admin',
+    'title'  => 'App Admin',
 
     /**
      * Use `https`.
@@ -133,10 +133,10 @@ return [
     |               | skin-purple                             |
     |               | skin-yellow                             |
     |               | skin-red                                |
-    |               | skin-green                              |
+    |               | skin-green     skin-blue-light                         |
     |---------------------------------------------------------|
      */
-    'skin'    => 'skin-blue-light',
+    'skin'    => 'skin-blue',
 
     /*
     |---------------------------------------------------------|
