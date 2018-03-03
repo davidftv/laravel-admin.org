@@ -55,10 +55,18 @@ return [
             ]
         ],
 
+        /*
         'providers' => [
             'admin' => [
                 'driver' => 'eloquent',
                 'model'  => Encore\Admin\Auth\Database\Administrator::class,
+            ]
+        ],
+        */
+
+        'providers' => [
+            'admin' => [
+                'driver' => 'custom',
             ]
         ],
     ],
