@@ -8,7 +8,7 @@ use Encore\Admin\Facades\Admin;
 use Encore\Admin\Layout\Content;
 use App\Admin\Extensions\Nav\VueMain;
 
-class VMMgController extends Controller
+class VMController extends Controller
 {
 
     public function index()
