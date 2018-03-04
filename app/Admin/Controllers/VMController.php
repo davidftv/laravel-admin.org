@@ -14,7 +14,7 @@ class VMMgController extends Controller
     public function index()
     {
         return Admin::content(function (Content $content) {
-            $content->header('Dashboard');
+            $content->header('VueJs ------------------');
             $content->body(new VueMain());
         });
     }
