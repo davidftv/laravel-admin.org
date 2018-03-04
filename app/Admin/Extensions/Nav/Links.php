@@ -16,14 +16,14 @@ class Links
 </li>
 
 <li>
-    <a href="/demo/posts">
+    <a href="/app/posts">
       <i class="fa fa-bell-o"></i>
       <span class="label label-warning">7</span>
     </a>
 </li>
 
 <li>
-    <a href="/demo/users" no-pjax>
+    <a href="/app/users" no-pjax>
       <i class="fa fa-flag-o"></i>
       <span class="label label-danger">9</span>
     </a>
