@@ -36,12 +36,13 @@ Route::group([
         'china/province'        => China\ProvinceController::class,
         'china/city'            => China\CityController::class,
         'china/district'        => China\DistrictController::class,
+        'vmm'        => VMMgController::class,
     ]);
 
     $router->post('posts/release', 'PostController@release');
     $router->post('posts/restore', 'PostController@restore');
     $router->get('api/users', 'PostController@users');
-
+    $router->get('/vmmon', 'VMMgController@get');
     $router->get('china/cascading-select', 'China\ChinaController@cascading');
 
     $router->get('api/world/cities', 'World\ApiController@cities');
