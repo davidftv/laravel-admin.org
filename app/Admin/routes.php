@@ -36,7 +36,7 @@ Route::group([
         'china/province'        => China\ProvinceController::class,
         'china/city'            => China\CityController::class,
         'china/district'        => China\DistrictController::class,
-        'vmm'        => VMMgController::class,
+        'vmm'        => VMController::class,
     ]);
 
     $router->post('posts/release', 'PostController@release');
