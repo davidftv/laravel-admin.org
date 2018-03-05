@@ -37,6 +37,7 @@ Route::group([
         'china/city'            => China\CityController::class,
         'china/district'        => China\DistrictController::class,
         'vmm'        => VMController::class,
+        'asin'        => AsinMonController::class,
     ]);
 
     $router->post('posts/release', 'PostController@release');
